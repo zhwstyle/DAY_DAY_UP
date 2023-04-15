@@ -1,0 +1,9 @@
+1\ 修改pip 安装目录
+python -m site
+D:\2_PYTHON\Lib
+USER_SITE和USER_BASE
+    USER_SITE = r"D:\2_PYTHON\Lib\site-packages"
+    USER_BASE = r"D:\2_PYTHON\Scripts"
+
+
+    JITTOR_HOME   C:\Users\zhwst\.cache\jittor
