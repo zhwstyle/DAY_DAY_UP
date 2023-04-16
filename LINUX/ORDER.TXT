@@ -1,0 +1,9 @@
+3、配置SSH（免密码登录）
+ssh-keygen -t rsa
+cat xxx.pub >> authorized_keys
+chmod 644 authorized_keys
+ssh IP/HOSTNAME
+
+git@code.aliyun.com:David_zhang/zmqy.git
+ cd /usr/share/nginx/html
+git pull git@code.aliyun.com:David_zhang/zmqy.git  master

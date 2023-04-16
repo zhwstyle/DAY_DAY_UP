@@ -6,7 +6,7 @@ USER_SITE和USER_BASE
     USER_BASE = r"D:\2_PYTHON\Scripts"
 
 
-    JITTOR_HOME   C:\Users\zhwst\.cache\jittor
+   -- JITTOR_HOME   C:\Users\zhwst\.cache\jittor
 
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 
