@@ -1,0 +1,209 @@
+{
+	"StreamConfig": {},
+	"State": {
+		"Running": true,
+		"Paused": false,
+		"Restarting": false,
+		"OOMKilled": false,
+		"RemovalInProgress": false,
+		"Dead": false,
+		"Pid": 4981,
+		"ExitCode": 0,
+		"Error": "",
+		"StartedAt": "2023-04-16T17:27:16.780935403Z",
+		"FinishedAt": "2023-04-16T17:26:16.965496798Z",
+		"Health": null
+	},
+	"ID": "06b2880e70b6a50197705a8b42725cd4fa6f08cf58b7a4fd6b4945bec7400b11",
+	"Created": "2023-04-15T09:13:37.117572661Z",
+	"Managed": false,
+	"Path": "/bin/sh",
+	"Args": [
+		"-c",
+		"python3.7 -m jittor.notebook --allow-root --ip=0.0.0.0"
+	],
+	"Config": {
+		"Hostname": "06b2880e70b6",
+		"Domainname": "",
+		"User": "",
+		"AttachStdin": false,
+		"AttachStdout": false,
+		"AttachStderr": false,
+		"ExposedPorts": {
+			"20/tcp": {},
+			"21/tcp": {},
+			"22/tcp": {},
+			"3306/tcp": {},
+			"443/tcp": {},
+			"6379/tcp": {},
+			"80/tcp": {},
+			"8081/tcp": {},
+			"8082/tcp": {},
+			"8083/tcp": {},
+			"8084/tcp": {},
+			"888/tcp": {},
+			"8888/tcp": {},
+			"9501/tcp": {},
+			"9502/tcp": {}
+		},
+		"Tty": false,
+		"OpenStdin": false,
+		"StdinOnce": false,
+		"Env": [
+			"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+			"PYTHONIOENCODING=utf8"
+		],
+		"Cmd": [
+			"/bin/sh",
+			"-c",
+			"python3.7 -m jittor.notebook --allow-root --ip=0.0.0.0"
+		],
+		"Image": "jittor/jittor:latest",
+		"Volumes": null,
+		"WorkingDir": "/usr/src/jittor",
+		"Entrypoint": null,
+		"OnBuild": null,
+		"Labels": {}
+	},
+	"Image": "sha256:01fb628ef5ecfe00c36bf489f8bcddf5461c2b8bb2499047b9ea5c2198d3c529",
+	"NetworkSettings": {
+		"Bridge": "",
+		"SandboxID": "95d1f9e5a7e44409c42f45a7b045ebd8c9c19e429414a98d60439a53639b3981",
+		"HairpinMode": false,
+		"LinkLocalIPv6Address": "",
+		"LinkLocalIPv6PrefixLen": 0,
+		"Networks": {
+			"bridge": {
+				"IPAMConfig": null,
+				"Links": null,
+				"Aliases": null,
+				"NetworkID": "886a0077d0e7a2ad128874f3db38081f7644262f3995b3c3f0f86a3d06bbb674",
+				"EndpointID": "0c85ba180d3e6e280429e948424a6a56910e030dd9e253c6a12e02b2640aca7f",
+				"Gateway": "172.17.0.1",
+				"IPAddress": "172.17.0.2",
+				"IPPrefixLen": 16,
+				"IPv6Gateway": "",
+				"GlobalIPv6Address": "",
+				"GlobalIPv6PrefixLen": 0,
+				"MacAddress": "02:42:ac:11:00:02",
+				"DriverOpts": null,
+				"IPAMOperational": false
+			}
+		},
+		"Service": null,
+		"Ports": {
+			"20/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "1020"
+				}
+			],
+			"21/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "1021"
+				}
+			],
+			"22/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "1022"
+				}
+			],
+			"3306/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "13306"
+				}
+			],
+			"443/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "10443"
+				}
+			],
+			"6379/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "16379"
+				}
+			],
+			"80/tcp": null,
+			"8081/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "8081"
+				}
+			],
+			"8082/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "8082"
+				}
+			],
+			"8083/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "8083"
+				}
+			],
+			"8084/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "8084"
+				}
+			],
+			"888/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "888"
+				}
+			],
+			"8888/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "8888"
+				}
+			],
+			"9501/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "9501"
+				}
+			],
+			"9502/tcp": [
+				{
+					"HostIp": "0.0.0.0",
+					"HostPort": "9502"
+				}
+			]
+		},
+		"SandboxKey": "/var/run/docker/netns/95d1f9e5a7e4",
+		"SecondaryIPAddresses": null,
+		"SecondaryIPv6Addresses": null,
+		"IsAnonymousEndpoint": true,
+		"HasSwarmEndpoint": false
+	},
+	"LogPath": "/var/lib/docker/containers/06b2880e70b6a50197705a8b42725cd4fa6f08cf58b7a4fd6b4945bec7400b11/06b2880e70b6a50197705a8b42725cd4fa6f08cf58b7a4fd6b4945bec7400b11-json.log",
+	"Name": "/distracted_diffie",
+	"Driver": "overlay2",
+	"OS": "linux",
+	"MountLabel": "",
+	"ProcessLabel": "",
+	"RestartCount": 0,
+	"HasBeenStartedBefore": true,
+	"HasBeenManuallyStopped": false,
+	"MountPoints": {},
+	"SecretReferences": null,
+	"ConfigReferences": null,
+	"AppArmorProfile": "",
+	"HostnamePath": "/var/lib/docker/containers/06b2880e70b6a50197705a8b42725cd4fa6f08cf58b7a4fd6b4945bec7400b11/hostname",
+	"HostsPath": "/var/lib/docker/containers/06b2880e70b6a50197705a8b42725cd4fa6f08cf58b7a4fd6b4945bec7400b11/hosts",
+	"ShmPath": "",
+	"ResolvConfPath": "/var/lib/docker/containers/06b2880e70b6a50197705a8b42725cd4fa6f08cf58b7a4fd6b4945bec7400b11/resolv.conf",
+	"SeccompProfile": "",
+	"NoNewPrivileges": false,
+	"LocalLogCacheMeta": {
+		"HaveNotifyEnabled": false
+	}
+}

@@ -23,3 +23,44 @@ https://blog.csdn.net/weixin_51617086/article/details/125235258
         离线docker
         https://blog.csdn.net/qq_27706119/article/details/122311325
  idea docker https://blog.csdn.net/qq_43776514/article/details/124426918
+
+
+
+ # Linux 用户
+ docker run -it --network host jittor/jittor
+ # Windows/Mac 用户
+ docker run -it -p 8888:8888 jittor/jittor
+
+ sudo apt install jupyter-core
+jittor 教程 https://cg.cs.tsinghua.edu.cn/jittor/tutorial/2021-2-4-00-00-jittor_class_1/
+https://nbviewer.org/github/Jittor/LearnJittorBasicIn60Min/tree/master/
+
+
+处理 WIN 浏览器问题win dockerdesk  https://blog.csdn.net/qq_42242247/article/details/119820540
+处理 ubantu 浏览器问题   https://www.likecs.com/show-308277704.html
+
+uabantu 镜像源设置  https://blog.csdn.net/jegbrother/article/details/94192621
+
+
+ubantu pip 换源  https://blog.csdn.net/qq_41962612/article/details/125369433
+
+linux annocanda https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+
+dockerdesktop https://www.bilibili.com/read/cv19396605
+\\wsl.localhost\docker-desktop-data\data\docker\containers
+
+	"PortBindings": {
+		"8888/tcp": [
+			{
+				"HostIp": "0.0.0.0",
+				"HostPort": "8888"
+			}
+		]
+	},
+
+	"ExposedPorts": {
+    			"8888/tcp": {}
+    		},
+
+
+
