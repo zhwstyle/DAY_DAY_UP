@@ -7,3 +7,18 @@ ssh IP/HOSTNAME
 git@code.aliyun.com:David_zhang/zmqy.git
  cd /usr/share/nginx/html
 git pull git@code.aliyun.com:David_zhang/zmqy.git  master
+
+
+# 切换用户，从jack到root
+sudo su - root
+
+# 为root创建密码
+passwd root
+
+sudo apt-get install openssh-server
+ubantu 安装docker
+https://blog.csdn.net/weixin_51617086/article/details/125235258
+        离线uanbtu
+        https://blog.csdn.net/zong596568821xp/article/details/105994450
+        离线docker
+        https://blog.csdn.net/qq_27706119/article/details/122311325
