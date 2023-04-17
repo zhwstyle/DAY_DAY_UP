@@ -1,12 +1,12 @@
-3、配置SSH（免密码登录）
-ssh-keygen -t rsa
-cat xxx.pub >> authorized_keys
-chmod 644 authorized_keys
-ssh IP/HOSTNAME
+            3、配置SSH（免密码登录）
+            ssh-keygen -t rsa
+            cat xxx.pub >> authorized_keys
+            chmod 644 authorized_keys
+            ssh IP/HOSTNAME
 
-git@code.aliyun.com:David_zhang/zmqy.git
- cd /usr/share/nginx/html
-git pull git@code.aliyun.com:David_zhang/zmqy.git  master
+                git@code.aliyun.com:David_zhang/zmqy.git
+                 cd /usr/share/nginx/html
+                git pull git@code.aliyun.com:David_zhang/zmqy.git  master
 
 
 # 切换用户，从jack到root
@@ -38,6 +38,11 @@ https://nbviewer.org/github/Jittor/LearnJittorBasicIn60Min/tree/master/
 
 处理 WIN 浏览器问题win dockerdesk  https://blog.csdn.net/qq_42242247/article/details/119820540
 处理 ubantu 浏览器问题   https://www.likecs.com/show-308277704.html
+
+ubantu 配置iP
+        sudo apt-get install ssh
+        service ssh start
+        ip address show
 
 uabantu 镜像源设置  https://blog.csdn.net/jegbrother/article/details/94192621
 
