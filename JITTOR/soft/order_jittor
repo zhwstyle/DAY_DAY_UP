@@ -1,0 +1,3 @@
+curl -d “{'prompt': 'Hello, solve 5x=13'}” “http://0.0.0.0:8000”
+
+wget --post-data '{'prompt': 'Hello, solve 5x=13'}' http://0.0.0.0:8000

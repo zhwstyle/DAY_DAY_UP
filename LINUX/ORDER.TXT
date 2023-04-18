@@ -68,4 +68,7 @@ dockerdesktop https://www.bilibili.com/read/cv19396605
     		},
 
 
+pip install flask==2.0.2
+https://blog.csdn.net/qq_39813400/article/details/127731167
+
 
