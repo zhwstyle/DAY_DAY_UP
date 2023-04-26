@@ -21,3 +21,6 @@ $env:device_mem_limit="8000000000"
 1. UserWarning: loaded more than 1 DLL from .libs:
    https://blog.csdn.net/weixin_43113412/article/details/122628921
 ![img.png](img.png)
+## 代码
+1. https://huggingface.co/THUDM/chatglm-6b-int4
+   
