@@ -6,12 +6,12 @@ USER_SITE和USER_BASE
     USER_BASE = r"D:\2_PYTHON\Scripts"
 
 
-   -- JITTOR_HOME   C:\Users\zhwst\.cache\jittor
+-- JITTOR_HOME   C:\Users\zhwst\.cache\jittor
 
-    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 
 修改PIP源
-    C:\Users\zhwst\AppData\Roaming\pip\pip.ini
+C:\Users\zhwst\AppData\Roaming\pip\pip.ini
 
     [global]
     timeout=40
